@@ -31,7 +31,6 @@ class Dashboard extends CI_Controller
 		} catch (\Throwable $th) {
 			//throw $th;
 		}
-			// var_dump($data); die;
 
 		$this->template->load('template', 'dashboard', $data);
 	}

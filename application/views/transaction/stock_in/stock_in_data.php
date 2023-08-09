@@ -31,7 +31,7 @@
                     <thead>
                         <tr>
                             <th style="width: 10px">No.</th>
-                            <th>Barcode</th>
+                            <th>Kode</th>
                             <th>Item Name</th>
                             <th>Detail</th>
                             <th>Qty</th>
@@ -82,7 +82,7 @@
                     <table class="table table-borderless">
                         <tbody>
                             <tr>
-                                <th>Barcode</th>
+                                <th>Kode</th>
                                 <td>:</td>
                                 <td>
                                     <span id="barcode">&nbsp;</span>

@@ -32,7 +32,7 @@
                                 <form method="post" target="_self" name="formku" id="formku" class="eventInsForm" enctype="multipart/form-data">
                                     <div class="form-row">
                                         <div class="col-md-4 col-xs-4">
-                                            <label for="barcode" class="col-form-label">Barcode <font color="#f00">*</font></label>
+                                            <label for="barcode" class="col-form-label">Kode <font color="#f00">*</font></label>
                                         </div>
                                         <div class="col-md-8 col-xs-8">
                                             <input type="text" name="barcode" id="barcode" class="form-control" style="margin-bottom: 5px;" maxlength="100" autofocus onkeyup="this.value = this.value.capitalize()">
@@ -167,7 +167,7 @@
                             <thead>
                                 <tr>
                                     <th style="width: 10px">No.</th>
-                                    <th>Barcode</th>
+                                    <th>Kode</th>
                                     <th>Name</th>
                                     <th>Category</th>
                                     <th>Unit</th>
@@ -183,10 +183,7 @@
                                     <tr>
                                         <td><?= $no++ . '.'; ?></td>
                                         <td>
-                                            <?= $i->barcode; ?><br>
-                                            <a href="<?= site_url('item/barcode_qrcode/' . $i->item_id); ?>" class="btn btn-warning btn-sm">
-                                                Generate <i class="fa fa-barcode"></i>
-                                            </a>
+                                            <?= $i->barcode; ?>
                                         </td>
                                         <td><?= $i->name; ?></td>
                                         <td><?= $i->name_category; ?></td>

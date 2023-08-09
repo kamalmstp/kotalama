@@ -40,7 +40,7 @@
                                     </div>
                                     <div class="form-row">
                                         <div class="col-md-4 col-xs-4">
-                                            <label for="barcode" class="col-form-label">Barcode <font color="#f00">*</font></label>
+                                            <label for="barcode" class="col-form-label">Kode <font color="#f00">*</font></label>
                                         </div>
                                         <div class="col-md-8 col-xs-8 input-group">
                                             <input type="hidden" name="stock_id" id="stock_id">

@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>myPOS</title>
+    <title>Kotalama Koffie</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -23,12 +23,16 @@
 <body class="hold-transition login-page">
     <div class="login-box">
         <div class="login-logo">
-            <a>my<b>POS</b></a>
+            <!-- <a><b></b></a> -->
+            <!-- <img src="<?= base_url('assets/img/kotalama.png') ?>" width="40%" alt=""> -->
         </div>
         <!-- /.login-logo -->
         <div class="card">
             <div class="card-body login-card-body">
-                <p class="login-box-msg">Sign in to start your session</p>
+                
+                <p class="login-box-msg">
+                <img src="<?= base_url('assets/img/kotalama.png') ?>" width="40%" alt=""> <br> Login
+                </p>
 
                 <?php if ($this->session->flashdata('pesan')) { ?>
                     <div class="container-fluid">

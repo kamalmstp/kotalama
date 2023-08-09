@@ -28,7 +28,7 @@
 
 					<div class="info-box-content">
 						<span class="info-box-text">Items</span>
-						<span class="info-box-number"><?= $item ?></span>
+						<span class="info-box-number">0</span>
 					</div>
 					<!-- /.info-box-content -->
 				</div>
@@ -41,7 +41,7 @@
 
 					<div class="info-box-content">
 						<span class="info-box-text">Suppliers</span>
-						<span class="info-box-number"><?= $supplier ?></span>
+						<span class="info-box-number"></span>
 					</div>
 					<!-- /.info-box-content -->
 				</div>
@@ -58,7 +58,7 @@
 
 					<div class="info-box-content">
 						<span class="info-box-text">Customers</span>
-						<span class="info-box-number"><?= $customer; ?></span>
+						<span class="info-box-number"></span>
 					</div>
 					<!-- /.info-box-content -->
 				</div>
@@ -72,7 +72,7 @@
 
 						<div class="info-box-content">
 							<span class="info-box-text">Users</span>
-							<span class="info-box-number"><?= $user; ?></span>
+							<span class="info-box-number"></span>
 						</div>
 						<!-- /.info-box-content -->
 					</div>

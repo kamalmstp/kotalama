@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>myPos</title>
+    <title>Kotalama Koffie</title>
     <style type="text/css">
         html {
             font-family: "Verdana, Arial";
@@ -53,11 +53,11 @@
 <body onload="window.print()">
     <div class="content">
         <div class="title">
-            <b>myPOS</b>
+            <b>Kotalama Koffie</b>
             <br>
-            Jakarta Pusat
+            Banjarmasin Tengah
             <br>
-            Jln Jenderal Sudirman
+            Jln Simpang Hasanuddin, Kertak Baru ulu
         </div>
 
         <div class="head">
@@ -154,7 +154,7 @@
         <div class="thanks">
             ---Thank You---
             <br>
-            myPOS
+            Kotalama Koffie
         </div>
     </div>
 </body>

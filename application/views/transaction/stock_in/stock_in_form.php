@@ -34,7 +34,7 @@
                                 <input type="date" name="date" class="form-control" value="<?= date('Y-m-d') ?>">
                             </div>
                             <div class="form-group">
-                                <label for="barcode" class="col-form-label">Barcode <font color="#f00">*</font></label>
+                                <label for="barcode" class="col-form-label">Kode <font color="#f00">*</font></label>
                                 <div class="input-group">
                                     <input type="hidden" name="item_id" id="item_id">
                                     <input type="text" name="barcode" id="barcode" class="form-control" aria-describedby="basic" autofocus>
@@ -103,7 +103,7 @@
                     <table class="table table-bordered table-striped" id="example1">
                         <thead>
                             <tr>
-                                <th>Barcode</th>
+                                <th>Kode</th>
                                 <th>Name</th>
                                 <th>Unit</th>
                                 <th>Price</th>

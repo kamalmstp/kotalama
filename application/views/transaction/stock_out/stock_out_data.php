@@ -31,7 +31,7 @@
                     <thead>
                         <tr>
                             <th style="width: 10px">No.</th>
-                            <th>Barcode</th>
+                            <th>Kode</th>
                             <th>Item Name</th>
                             <th>Info</th>
                             <th>Qty</th>

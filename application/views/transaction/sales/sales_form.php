@@ -66,7 +66,7 @@
                         <table width="100%">
                             <tr>
                                 <td style="vertical-align: top; width:30%;">
-                                    <label for="barcode">Barcode</label>
+                                    <label for="barcode">Kode</label>
                                 </td>
                                 <td>
                                     <div class="form-group input-group">
@@ -126,7 +126,7 @@
                                 <thead>
                                     <tr>
                                         <th>#</th>
-                                        <th>Barcode</th>
+                                        <th>Kode</th>
                                         <th>Product Item</th>
                                         <th>Price</th>
                                         <th>Qty</th>
@@ -258,7 +258,7 @@
                     <table class="table table-bordered table-striped" id="example1">
                         <thead>
                             <tr>
-                                <th>Barcode</th>
+                                <th>Kode</th>
                                 <th>Name</th>
                                 <th>Unit</th>
                                 <th>Price</th>
